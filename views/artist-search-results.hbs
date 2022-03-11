@@ -1,0 +1,9 @@
+<div>
+    {{#unless null}}
+    {{#each items}}
+    <img src="{{this.images.1.url}}">
+    <a href="/albums/{{this.id}}">View Albums</a>
+    <h5>{{this.name}} </h5>
+    {{/each}}
+    {{/unless}}   
+</div>
